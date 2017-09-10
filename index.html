@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Welcome to the Psychic Game</title>
+
+			<script type="text/javascript" src="script.js"></script>
+			
+
+		</head>
+		
+		<body>
+
+		<h1>Welcome To The Psychic's Guessing Game!</h1>
+
+		<p>Instructions: You have 10 tries to guess the letter that the Psychic is thinking of.</p>
+
+			<form>
+				<input id="guess" type="button" value="Guess" size="5" style="font-size: 16px;" onclick="checkGuessF()">
+				<input id="gHere" type="text" name="guessHere" value="" size="1" style="font-size: 16px;" autofocus>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			
+				<input id="output" type="text" size="40" style="font-size: 16px; border: 0px">
+			<br><br>
+			Remaining Guesses:
+				<input id="gRemaining" type="text" name="guessRemaining" value="10" size="2" style="font-size: 16px; border: 0px;">
+			<br><br>
+
+			Guesses So Far:
+				<input id="gSoFar" type="text" name="guessesSoFar"  size="22" style="font-size: 16px;">
+
+			<br><br><br>
+			Wins:
+				<input id="gWins" type="text" name="guessWins" value="0" size="3" style="font-size: 16px;">
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			Loses:
+				<input id="gLoses" type="text" name="guessLoses" value="0" size="3" style="font-size: 16px;">
+			<br><br><br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input id="playAgain" type="button" value="Play Again" size="60" style="color: Blue; font-size: 24px" onclick="playAgainF()">
+			</form>
+
+
+		</body>
+	</html>
